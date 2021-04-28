@@ -3,4 +3,4 @@
 
 require_relative '../lib/cli'
 
-ruby_games
+run_ruby_games

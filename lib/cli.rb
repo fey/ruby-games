@@ -2,7 +2,7 @@
 
 require 'inquirer'
 
-def ruby_games
+def run_ruby_games
   puts 'Welcome to the Ruby Games!'
   name = Ask.input 'May I have your name?'
   puts "Hello, #{name}!"
