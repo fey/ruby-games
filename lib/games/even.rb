@@ -5,7 +5,6 @@ require_relative '../engine'
 def play_even
   description = 'Answer "yes" if the number is even, otherwise answer "no".'
 
-
   rounds = []
   ROUNDS_COUNT.times do
     number = rand(1..100)
