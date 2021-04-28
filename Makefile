@@ -8,4 +8,4 @@ lint-fix:
 	rubocop -A .
 
 ruby-games:
-	bin/ruby-games
+	ruby bin/ruby-games
