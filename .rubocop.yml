@@ -1,0 +1,16 @@
+---
+
+# inherit_mode:
+#   merge:
+#     - Exclude
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0
+  TargetRailsVersion: 6
+  DisplayCopNames: true
+  Exclude:
+    - 'vendor/**/*'
+
+Lint/NonLocalExitFromIterator:
+  Enabled: false
